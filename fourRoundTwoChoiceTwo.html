@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Trust 4 Player Round Two Choice Two</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif 
+}
+.gameTitle{
+    background-color:rgb(78, 65, 200);
+    overflow: hidden;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    text-decoration-line: underline;
+    
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  background-color:  rgb(78, 65, 200);
+  
+}
+
+
+
+/* Style the content */
+.content {
+  background-color: rgb(78, 65, 223);
+  margin-left: 75px;
+  margin-right: 75px;
+  height: 630px;
+   
+  
+}
+
+
+
+.pageTitle{
+    
+    color:white;
+    font-size: 65px;
+    text-decoration-line: underline;
+    background-color:  rgb(78, 65, 223);
+    margin-left: 25px;
+}
+
+#questionTwo{ 
+    color:white;
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+p{
+color:white;
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+.answerOption{ 
+    color:white;
+    height: 20px;
+    background-color:rgb(78, 65, 150); 
+    border-radius: 25px;
+    text-align: center;
+    width: 30px;
+    margin-bottom: 10px;
+   
+}
+
+.answerOptionLabel{
+  
+  color:white;
+  font-size: 50px;
+}
+
+.continue{ 
+    color:white;
+    font-size: 35px;
+    background-color:rgb(78, 65, 150); 
+    border-radius: 25px;
+    padding: 10px;
+    width: fit-content;
+margin-top: 25px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.continue:hover{
+    color:blueviolet;
+    
+}
+
+/* Style the footer */
+.footer {
+    
+  background-color: rgb(78, 65, 200);
+    overflow: hidden;
+    color:white;
+  padding: 15px;
+  margin-top: 65px; 
+  margin-left: -60px;
+  font-size: 20px;
+  
+  
+}
+
+/* Media query for smaller screens, adjust the breakpoint as needed */
+@media screen and (max-width: 768px) {
+    .screensize {
+        /* Add styles for smaller screens */
+        font-size: 3.8em;
+        max-width: 80%;
+        max-height: 80%;
+    }
+}
+
+</style>
+<script type="text/javascript" src="fourPlayerModeLogic.js"></script>
+</head>
+<body onload= "questionTwo();" class="screensize">
+
+<div>
+  <h1 class="gameTitle">Trust</h1>
+    
+</div>
+
+
+
+<div class= "content">
+  <h2 class="pageTitle screensize">Round Two </h2>
+ <div class="content1">
+  <div class="display" >
+    <p id="questionTwo" class="screensize"></p>
+ </div>  
+ <div class="interactiondiv"> 
+    <form action= "fourRoundTwoGiveDeviceThree.html">
+        <input class="answerOption screensize" type="radio" id="optionFour" name="secondChoice" value="optionFour" required>
+        <label class="answerOptionLabel screensize" for="optionFour" id="optionFourLabel"></label><br>
+        <br>
+
+        <p>Or</p>
+
+        <input class="answerOption screensize" type="radio" id="optionFive" name="secondChoice" value="optionFive" required>
+        <label class="answerOptionLabel screensize" for="optionFive" id="optionFiveLabel"></label><br>
+    </div>
+ </div>
+<div class="content2">
+       <input class="continue" type="submit" value="Continue" onclick="getAnswerTwo();">
+      </form>
+
+
+</div>
+
+
+<div>
+  <p class="footer">Prototype produced by Dré Lee</p>
+</div>
+
+</body>
+</html>

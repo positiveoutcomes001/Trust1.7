@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Trust 4 Player Round Five Random Winner</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="fourPlayerModeLogic.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif 
+}
+.gameTitle{
+    background-color:rgb(78, 65, 200);
+    overflow: hidden;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  background-color:  rgb(78, 65, 200);
+  
+}
+
+
+
+/* Style the content */
+.content {
+  background-color: rgb(78, 65, 223);
+  margin-left: 75px;
+  margin-right: 75px;
+  height: 610px;
+   
+  
+}
+
+.pageTitle{
+    
+    color:white;
+    font-size: 65px;
+    text-decoration-line: underline;
+    background-color:  rgb(78, 65, 223);
+    margin-left: 25px;
+}
+
+.instructions{ 
+    color:white;
+    font-size: 35px;
+    margin-left: 25px;
+}
+
+#roundFivePlayerNames{
+  color: white;
+  font-size: 35px;
+}
+
+.continue{ 
+    color:white;
+    font-size: 35px;
+    background-color:rgb(78, 65, 150); 
+    border-radius: 25px;
+    padding: 10px;
+    width: fit-content;
+   
+    margin-left: 25px;
+}
+
+.continue:hover{
+    color:blueviolet;
+    
+}
+
+/* Style the footer */
+.footer {
+    
+  background-color: rgb(78, 65, 200);
+    overflow: hidden;
+    color:white;
+  padding: 10px;
+  
+}
+
+/* Media query for smaller screens, adjust the breakpoint as needed */
+@media screen and (max-width: 768px) {
+    .screensize {
+        /* Add styles for smaller screens */
+        font-size: 3.8em;
+        max-width: 80%;
+        max-height: 80%;
+    }
+}
+
+</style>
+</head>
+<body onload="roundFivePlayers()">
+
+<div>
+  <h1 class="gameTitle screensize">Trust</h1>
+    
+</div>
+
+
+
+<div class= "content">
+  <h2 class="pageTitle screensize">Round Five </h2>
+ <div class="display" >
+    <p class="instructions screensize">Since no players are capabale of trusting each other, in this round one player shall be randomly selected as winner and take the whole game prize. </p>
+ </div>  
+
+ <ul id="roundFivePlayerNames" class="screensize">
+
+
+ </ul>
+
+ <div class="continuation screensize" >
+    <a href="fourRoundFiveResults.html"><h3 class="continue screensize">Randomly Select Winner</h3></a>
+ </div>  
+
+
+
+</div>
+
+<div class="footer">
+  <p>Prototype produced by Dré Lee</p>
+</div>
+
+</body>
+</html>
+
+
+    
+   
