@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title> Trust Four Form</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="fourPlayerModeLogic.js"></script>
+<style>
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif 
+}
+.gameTitle{
+    background-color:rgb(78, 65, 200);
+    overflow: hidden;
+    color:white;
+    text-align: center;
+    font-size: 50px;
+    text-decoration-line: underline;
+    
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
+  background-color:  rgb(78, 65, 200);
+  
+}
+
+
+
+/* Style the content */
+.content {
+  background-color: rgb(78, 65, 223);
+  margin-left: 75px;
+  margin-right: 75px;
+  height: 610px;
+  align-items: center;
+
+   
+  
+}
+
+.content1{
+  display: flex;
+  justify-content: center;
+}
+
+.content2{
+  display: flex;
+  justify-content: center;
+}
+
+.pageTitle{
+    
+    color:white;
+    font-size: 45px;
+    text-decoration-line: underline;
+    background-color:  rgb(78, 65, 223);
+    margin-left: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.instructions{ 
+    color:white;
+    font-size: 25px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.interaction{ 
+    color:white;
+    
+}
+
+
+.nameInput{
+border-radius: 25px;
+font-size: 25px;
+text-align: center;
+width:fit-content;
+display: flex;
+justify-content: center;
+}
+
+
+.continue{ 
+    color:white;
+    font-size: 25px;
+    background-color:rgb(78, 65, 150); 
+    border-radius: 35px;
+    padding: 10px;
+    width: fit-content;
+    margin-top:1px;
+    margin-left: 65px;
+    text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
+.continue:hover{
+    color:blueviolet;  
+}
+
+
+
+/* Style the footer */
+.footer {
+    
+  background-color: rgb(78, 65, 200);
+    overflow: hidden;
+    color:white;
+  padding: 10px;
+  
+}
+
+/* Media query for smaller screens, adjust the breakpoint as needed */
+@media screen and (max-width: 768px) {
+    .screensize {
+        /* Add styles for smaller screens */
+        font-size: 3.8em;
+        max-width: 80%;
+        max-height: 80%;
+    }
+}
+
+</style>
+</head>
+<body class="screensize">
+
+<div>
+  <h1 class="gameTitle">Trust</h1>
+    
+</div>
+
+
+
+<div class= "content">
+    <h2 class="pageTitle screensize">Enter Player Names:</h2>
+ <div class="display" >
+    
+
+    <div class="content1">
+        <form class="interaction" id="fourForm" method="GET" action="fourRoundOneElimination.html">
+ 
+            <input class="nameInput screensize" type="text" name="nameOne" id="playerOneName" required placeholder="Enter Name Here"></input>
+            <br>
+            
+            <input class="nameInput screensize" type="text" name="nameTwo" id="playerTwoName" required placeholder="Enter Name Here"></input>
+            <br>
+          
+            <input class="nameInput screensize" type="text" name="nameThree" id="playerThreeName" required placeholder="Enter Name Here"></input>
+            <br>
+            
+            <input class="nameInput screensize" type="text" name="nameFour" id="playerFourName" required placeholder="Enter Name Here"></input>
+            <br>
+            
+       
+
+            <input class="continue screensize" type="submit" value="Start Game" onclick=validateForm();></input>
+
+
+        </div>
+        
+             <div class=" content2">
+                
+
+        <p class="instructions screensize">Each player must have two contributions to play, a primary contribution and a secondary contribution. The secondary contribution may or may not become relevant later in the game. Each player’s primary contribution will form the game prize which all players are playing for. Player contributions can consist of anything worth playing for, sweets, crisps, money etc. Whatever you contribute, be prepared to lose it! </p>
+
+        </div>
+           
+
+    </form>
+
+
+ </div> 
+ 
+
+
+
+
+</div>
+
+<div class="footer">
+  <p>Prototype produced by Dré Lee</p>
+</div>
+
+</body>
+</html>
