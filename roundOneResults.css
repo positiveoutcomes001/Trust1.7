@@ -1,76 +1,73 @@
-* {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif 
-  }
-  .gameTitle{
-      background-color:rgb(78, 65, 200);
-      overflow: hidden;
-      color:white;
-      text-align: center;
-      font-size: 50px;
-      text-decoration-line: underline;
-      
-  }
-  
-  
-  body {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-    background-color:  rgb(78, 65, 200);
-    
-  }
-  
-  
-  
-  /* Style the content */
-  .content {
-    background-color: rgb(78, 65, 223);
-    margin-left: 75px;
-    margin-right: 75px;
-    height: 610px;
-     
-    
-  }
-  
-  .pageTitle{
-      
-      color:white;
-      font-size: 65px;
-      text-decoration-line: underline;
-      background-color:  rgb(78, 65, 223);
-      margin-left: 25px;
-  }
-  
-  .display{ 
-      color:white;
-      font-size: 35px;
-      margin-left: 25px;
-  }
-  
-  
-  
-  .continue{ 
-      color:white;
-      font-size: 50px;
-      
-      border-radius: 25px;
-      padding: 10px;
-      width: fit-content;
-      margin-top: 100px;
-      margin-left: 25px;
-  }
-  
-  
-  
-  /* Style the footer */
-  .footer {
-      
-    background-color: rgb(78, 65, 200);
-      overflow: hidden;
-      color:white;
+    padding: 0;
+    background-color:  rgb(78, 65, 223);;
+}
+
+header {
+    background-color:  rgb(78, 65, 223);
+    color: #fff;
+    text-align: center;
     padding: 10px;
-    margin-top:120px;
-    margin-left: -75px;
+    font-size: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
     
-  }
+}
+
+.content {
+    background-color:  rgb(82, 72, 195);
+    padding: 20px;  
+    border-radius: 10px;
+    height:560px
+   
+    
+}
+
+.pageTitle{
+  color:white;
+  text-decoration-line: underline;
+}
+
+#eliminatedPlayer{
+    color: white;
+}
+
+#secondEliminatedPlayer{
+    color: white;
+}
+
+#remainingPlayers{
+    color: white;
+}
+
+
+.continue{
+color:white;
+max-width: fit-content;
+background-color: rgb(78, 65, 223) ;
+border-radius: 10px;
+padding: 10px;
+}
+
+
+.continue:hover{
+color:blueviolet;  
+}
+
+.instructions{
+color:white;
+}
+
+
+footer {
+    background-color:  rgb(78, 65, 223);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
