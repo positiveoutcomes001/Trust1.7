@@ -35,12 +35,49 @@ header {
   text-decoration-line: underline;
 }
 
+#giveDeviceToP1{ 
+    color:white;
+    
+}
+
+#giveDeviceToP2{ 
+    color:white;
+    
+}
+
+#giveDeviceToP3{ 
+    color:white;
+    
+}
+#giveDeviceToP4{ 
+    color:white;
+    
+}
+
+#giveDeviceToP5{ 
+    color:white;
+    
+}
+
 #giveDeviceToF1{ 
     color:white;
     
 }
 
 #giveDeviceToF2{ 
+    color:white;
+    
+}
+
+
+#giveDeviceToFF1{ 
+    color:white;
+    
+}
+
+
+
+#giveDeviceToFF2{ 
     color:white;
     
 }

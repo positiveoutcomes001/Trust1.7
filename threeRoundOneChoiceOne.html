@@ -123,21 +123,20 @@ margin-top: 25px;
 </style>
 <script type="text/javascript" src="threePlayerModeLogic.js"></script>
 </head>
-<body onload= "questionOne();" class="screensize">
+<body onload= "questionOne();">
 
-<div>
-  <h1 class="gameTitle">Trust</h1>
+<header>
+  <h1>Trust</h1>
     
-</div>
+</header>
 
 
-
+<div class="container">
 <div class= "content">
   <h2 class="pageTitle">Round One </h2>
- <div class="content1">
-  <div class="display" >
-    <p id="questionOne"></p>
- </div>  
+  
+  <p id="questionOne"></p>
+  
  <div class="interactiondiv"> 
     <form action= "threeRoundOneGiveDeviceTwo.html">
         <input class="answerOption" type="radio" id="optionTwo" name="firstChoice" value="optionTwo" required>
@@ -148,19 +147,16 @@ margin-top: 25px;
 
         <input class="answerOption" type="radio" id="optionThree" name="firstChoice" value="optionThree" required>
         <label class="answerOptionLabel" for="optionThree" id="optionThreeLabel"></label><br>
-    </div>
- </div>
-<div class="content2">
+  
        <input class="continue" type="submit" value="Continue" onclick="getAnswerOne();">
       </form>
 
-
+ </div>
 </div>
 
-
-<div>
-  <p class="footer">Prototype produced by Dré Lee</p>
-</div>
+<footer>
+  &copy;Prototype produced by Dré Lee
+</footer>
 
 </body>
 </html>
