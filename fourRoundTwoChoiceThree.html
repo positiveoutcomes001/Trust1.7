@@ -126,20 +126,18 @@ margin-top: 25px;
 </head>
 <body onload= "questionThree();">
 
-<div>
-  <h1 class="gameTitle screensize">Trust</h1>
+<header>
+  <h1>Trust</h1>
     
-</div>
+</header>
 
 
-
+<div class="container">
 <div class= "content">
-  <h2 class="pageTitle screensize">Round Two </h2>
- <div class="content1">
-  <div class="display" >
-    <p id="questionThree" class="screensize"></p>
- </div>  
- <div class="interactiondiv"> 
+  <h2 class="pageTitle">Round Two </h2>
+
+    <p id="questionThree"></p>
+  
     <form action= "fourRoundTwoResults.html">
         <input class="answerOption screensize" type="radio" id="optionSix" name="thirdChoice" value="optionSix" required>
         <label class="answerOptionLabel screensize" for="optionSix" id="optionSixLabel"></label><br>
@@ -147,21 +145,19 @@ margin-top: 25px;
 
         <p>Or</p>
 
-        <input class="answerOption screensize" type="radio" id="optionSeven" name="thirdChoice" value="optionSeven" required>
-        <label class="answerOptionLabel screensize" for="optionSeven" id="optionSevenLabel"></label><br>
-    </div>
- </div>
-<div class="content2">
-       <input class="continue screensize" type="submit" value="Continue" onclick="getAnswerThree();">
+        <input class="answerOption" type="radio" id="optionSeven" name="thirdChoice" value="optionSeven" required>
+        <label class="answerOptionLabel" for="optionSeven" id="optionSevenLabel"></label><br>
+ 
+       <input class="continue" type="submit" value="Continue" onclick="getAnswerThree();">
       </form>
 
 
 </div>
-
-
-<div>
-  <p class="footer">Prototype produced by Dré Lee</p>
 </div>
+
+<footer>
+  &copy;Prototype produced by Dré Lee
+</footer>
 
 </body>
 </html>

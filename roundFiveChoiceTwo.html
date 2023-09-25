@@ -124,22 +124,20 @@ margin-top: 25px;
 </style>
 <script type="text/javascript" src="fivePlayerModeLogic.js"></script>
 </head>
-<body onload= "questionTen();" class="screensize">
+<body onload= "questionTen();">
 
-<div>
-  <h1 class="gameTitle">Trust</h1>
+<header>
+  <h1>Trust</h1>
     
-</div>
+</header>
 
 
-
+<div class="container">
 <div class= "content">
   <h2 class="pageTitle">Round Five </h2>
- <div class="content1">
-  <div class="display" >
+
     <p id="questionTen"></p>
- </div>  
- <div class="interactiondiv"> 
+ 
   <form action= "roundFiveResults.html">
     <input class="answerOption" type="radio" id="stayLoyalFour" name="r5SecondChoice" value="stayLoyal" required>
     <label class="answerOptionLabel" for="stayLoyalFour" id="stayLoyalFourLabel"></label><br>
@@ -147,18 +145,14 @@ margin-top: 25px;
     <label class="answerOptionLabel"  for="betray" id="betrayFourLabel"></label><br>
 
    
-  
-
-
-</div>
- </div>
-<div class="content2">
 <input class="continue" type="submit" value="Continue" onclick="getAnswerTen();">
 </form>
+
 </div>
-<div>
-  <p class="footer">Prototype produced by Dré Lee</p>
 </div>
+<footer>
+  &copy;Prototype produced by Dré Lee
+</footer>
 
 </body>
 </html>

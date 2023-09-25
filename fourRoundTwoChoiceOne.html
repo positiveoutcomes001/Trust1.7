@@ -126,42 +126,37 @@ margin-top: 25px;
 </head>
 <body onload= "questionOne();">
 
-<div>
-  <h1 class="gameTitle screensize">Trust</h1>
+<header>
+  <h1>Trust</h1>
     
-</div>
+</header>
 
 
-
+<div class="container">
 <div class= "content">
-  <h2 class="pageTitle screensize">Round Two </h2>
- <div class="content1">
-  <div class="display" >
-    <p id="questionOne" class="screensize"></p>
- </div>  
- <div class="interactiondiv"> 
+  <h2 class="pageTitle">Round Two </h2>
+
+    <p id="questionOne"></p>
+
     <form action= "fourRoundTwoGiveDeviceTwo.html">
-        <input class="answerOption screensize" type="radio" id="optionTwo" name="firstChoice" value="optionTwo" required>
-        <label class="answerOptionLabel screensize" for="optionTwo" id="optionTwoLabel"></label><br>
+        <input class="answerOption" type="radio" id="optionTwo" name="firstChoice" value="optionTwo" required>
+        <label class="answerOptionLabel" for="optionTwo" id="optionTwoLabel"></label><br>
         <br>
 
         <p>Or</p>
 
-        <input class="answerOption screensize" type="radio" id="optionThree" name="firstChoice" value="optionThree" required>
-        <label class="answerOptionLabel screensize" for="optionThree" id="optionThreeLabel"></label><br>
-    </div>
- </div>
-<div class="content2">
-       <input class="continue screensize" type="submit" value="Continue" onclick="getAnswerOne();">
+        <input class="answerOption" type="radio" id="optionThree" name="firstChoice" value="optionThree" required>
+        <label class="answerOptionLabel" for="optionThree" id="optionThreeLabel"></label><br>
+
+       <input class="continue" type="submit" value="Continue" onclick="getAnswerOne();">
       </form>
 
 
 </div>
-
-
-<div>
-  <p class="footer">Prototype produced by Dré Lee</p>
 </div>
 
+<footer>
+  &copy;Prototype produced by Dré Lee
+</footer>
 </body>
 </html>

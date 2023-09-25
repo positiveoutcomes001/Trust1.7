@@ -126,39 +126,32 @@ margin-top: 25px;
 </head>
 <body onload= "questionFour();">
 
-<div>
-  <h1 class="gameTitle screensize">Trust</h1>
-    
-</div>
+<header>
+  <h1>Trust</h1> 
+</header>
 
 
-
+<div class="container">
 <div class= "content">
   <h2 class="pageTitle screensize">Round Three </h2>
- <div class="content1">
-  <div class="display" >
-    <p id="questionFour" class="screensize"></p>
- </div>  
- <div class="interactiondiv"> 
+ 
+    <p id="questionFour"></p>
+ 
   <form action= "fourRoundThreeGiveDeviceTwo.html">
-    <input class="answerOption screensize" type="radio" id="stayLoyal" name="r3FirstChoice" value="stayLoyal" required>
-    <label class="answerOptionLabel screensize" for="stayLoyal" id="stayLoyalLabel"></label><br>
-    <input class="answerOption screensize" type="radio" id="betray" name="r3FirstChoice" value="betray" required>
-    <label class="answerOptionLabel screensize"  for="betray" id="betrayLabel"></label><br>
+    <input class="answerOption" type="radio" id="stayLoyal" name="r3FirstChoice" value="stayLoyal" required>
+    <label class="answerOptionLabel" for="stayLoyal" id="stayLoyalLabel"></label><br>
+    <input class="answerOption" type="radio" id="betray" name="r3FirstChoice" value="betray" required>
+    <label class="answerOptionLabel"  for="betray" id="betrayLabel"></label><br>
 
    
-  
-
-
-</div>
- </div>
-<div class="content2">
-<input class="continue screensize" type="submit" value="Continue" onclick="getAnswerFour();">
+<input class="continue" type="submit" value="Continue" onclick="getAnswerFour();">
 </form>
+
 </div>
-<div>
-  <p class="footer">Prototype produced by Dré Lee</p>
 </div>
+<footer>
+  &copy;Prototype produced by Dré Lee
+</footer>
 
 </body>
 </html>
