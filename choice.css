@@ -31,6 +31,7 @@ header {
     
 }
 
+
 .pageTitle{
   color:white;
   text-decoration-line: underline;
@@ -84,7 +85,7 @@ header {
 
 .continue{
 color:white;
-text-align: center;
+
 background-color: rgb(78, 65, 223) ;
 border-radius: 10px;
 font-size: 30px;

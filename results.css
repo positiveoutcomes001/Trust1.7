@@ -5,7 +5,15 @@ body {
     background-color:  rgb(78, 65, 223);;
 }
 
-.header {
+.header{
+    background-color:  rgb(78, 65, 223);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.h1{
     background-color:  rgb(78, 65, 223);
     color: white;
     text-align: center;
@@ -39,7 +47,6 @@ body {
 .continue{
 color:white;
 font-size: 25px;
-
 border-radius: 10px;
 padding: 10px;
 }
